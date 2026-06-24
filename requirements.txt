@@ -1,0 +1,8 @@
+gradio
+groq
+pymupdf
+pandas
+openpyxl
+pytesseract
+Pillow
+pdf2image
