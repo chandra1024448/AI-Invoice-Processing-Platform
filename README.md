@@ -1,14 +1,48 @@
----
-title: Invoice Reader PO NON PO
-emoji: 📉
-colorFrom: indigo
-colorTo: blue
-sdk: gradio
-sdk_version: 6.13.0
-app_file: app.py
-pinned: false
-license: mit
-short_description: invoice-reader-PO-&-NON-PO
----
+# AI Invoice Processing Platform
 
-Check out the configuration reference at https://huggingface.co/docs/hub/spaces-config-reference
+## Overview
+
+AI-powered invoice processing application that extracts structured invoice information from PDF documents using Llama 3.3 70B.
+
+## Features
+
+- Multi PDF Upload
+- PO & Non-PO Invoice Processing
+- AI Invoice Extraction
+- Duplicate Invoice Detection
+- SQLite Database Storage
+- Invoice History Tracking
+- Excel Export
+- Gradio Web Interface
+
+## Extracted Fields
+
+- Invoice Number
+- Invoice Date
+- Vendor Name
+- PO Number
+- Total Amount
+
+## Tech Stack
+
+- Python
+- Groq Llama 3.3 70B
+- Gradio
+- SQLite
+- PyMuPDF
+- Pandas
+
+## Workflow
+
+PDF Upload → Text Extraction → LLM Processing → Structured JSON → Database Storage → Excel Export
+
+## Future Enhancements
+
+- Vendor Analytics Dashboard
+- Invoice Search
+- Approval Workflow
+- RAG Based Invoice Assistant
+
+## Author
+
+Chandrakala Chippa
