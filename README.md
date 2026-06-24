@@ -43,6 +43,15 @@ PDF Upload → Text Extraction → LLM Processing → Structured JSON → Databa
 - Approval Workflow
 - RAG Based Invoice Assistant
 
+## Live Demo
+
+Hugging Face Space:
+https://huggingface.co/spaces/chandra1024/invoice-reader-PO-NON-PO
+
+## Screenshots
+
+<img width="1685" height="832" alt="image" src="https://github.com/user-attachments/assets/e3239c17-9020-4b55-872d-a12716ca2a1c" />
+
 ## Author
 
 Chandrakala Chippa
